@@ -3,7 +3,6 @@ import {
   Container,
   Header,
 } from 'semantic-ui-react';
-import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 
 const NotFoundPage = () => {
