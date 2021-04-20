@@ -1,7 +1,9 @@
 import React from 'react';
 import {
+  Button,
   Container,
   Header,
+  Input
 } from 'semantic-ui-react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
@@ -11,30 +13,30 @@ const HomePage = () => (
     <Navbar />
 
     <Container text style={{ marginTop: '7em' }}>
-      <Header as='h1'>Screen Reader Learning</Header>
+      <Header as='h1'>Screen Reader Skills Development Application</Header>
+      <Header as='h3'>Brief introduction</Header>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere ornare eros id imperdiet. 
-        Praesent luctus tempus ipsum ac viverra. Nulla volutpat enim vitae est dictum auctor. 
-        Duis imperdiet purus eu tortor laoreet mattis. Orci varius natoque penatibus et magnis dis parturient montes, 
-        nascetur ridiculus mus. Maecenas eget ipsum nec eros porta tincidunt. Suspendisse iaculis ultricies pharetra. 
-        Donec maximus nunc ut consectetur ultricies. Sed ornare a lorem nec mollis. Vivamus at accumsan libero.
+        This website is aimed at screen reader users who wish to improve their skills
+         at traversing web pages by playing a treasure-hunt style game. If you are a
+         novice looking to develop some skills, or an expert just wanting to practise,
+         then this website could be for you.
+      </p>
+      <Header as='h3'>How to use</Header>
+      <p>
+        Your usual screen reader controls will apply, and you will use them to navigate
+         your way through a series of levels. The aim of each level is to follow the
+         clues that you will hear to find the treasure which will take you to the next
+         level. As your screen reader lands on images on each level, a clue will be
+         read out loud which you can use to help find the treasure.
       </p>
       <p>
-        In eleifend sed arcu pretium rhoncus. Quisque maximus lectus at turpis dictum, eu consequat sapien pulvinar. 
-        Donec ac sapien a est dignissim pretium id sit amet risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
-        Fusce maximus maximus nunc, sed tristique neque hendrerit vel. Vestibulum finibus semper mi, quis finibus odio. 
-        Sed sodales pretium ante, vel molestie mi lobortis in. Morbi tempus, nibh sed condimentum dapibus, 
-        nibh nisi placerat ligula, vel ullamcorper massa arcu sit amet mauris. Nulla ac dui eget arcu tristique condimentum. 
-        Fusce scelerisque vehicula metus, eu rhoncus odio auctor quis. Ut tempus fermentum erat a bibendum. 
-        Aliquam id neque ornare, convallis enim ut, condimentum ligula. Phasellus suscipit malesuada urna, at cursus velit rutrum vel.
+        You will find a start button below this paragraph which will take you to the
+         first level. Below the start button is an input field to use a code to jump
+         to a specific level.
       </p>
-      <p>
-        Nullam ut purus sed enim mollis gravida. Proin ullamcorper lorem lectus, consequat vehicula enim tempus eget. 
-        Nullam gravida sodales efficitur. Integer quis consectetur lorem. Integer lacus tellus, finibus in iaculis ullamcorper, convallis id sem. 
-        Nullam a elit dolor. Integer sed dapibus elit. Cras eget sollicitudin risus, et venenatis eros. Nulla vehicula massa tincidunt mi commodo suscipit. 
-        Duis blandit enim non maximus facilisis. Vivamus sit amet dolor quis mi eleifend tincidunt. Vivamus quis tempus ligula. 
-        Suspendisse placerat lacus non nibh tincidunt, fringilla vehicula lorem imperdiet.
-      </p>
+      <Button primary fluid size='large'>Start</Button>
+      <Header as='h3'>Jump to a specific level</Header>
+      <Input action='Jump to Level' placeholder='Level Code' />
     </Container>
 
     <Footer />
