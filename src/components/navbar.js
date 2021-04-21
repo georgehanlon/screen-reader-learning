@@ -10,8 +10,8 @@ const Navbar = () => {
     <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' href='/' header>
-          <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} />
-          SRL
+          <Image size='mini' src='/logo.jpg' style={{ marginRight: '1.5em' }} />
+          Screen Reader Skills
         </Menu.Item>
         <Menu.Item as='a' href='/'>Home</Menu.Item>
         <Menu.Item as='a' href='/about'>About</Menu.Item>
