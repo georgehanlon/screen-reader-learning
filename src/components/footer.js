@@ -15,56 +15,44 @@ const Footer = () => {
         <Container textAlign='center'>
           <Grid divided inverted stackable>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 1' />
+              <Header inverted as='h4' content='Site Links' />
               <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
+                <List.Item as='a' href='/'>Home</List.Item>
+                <List.Item as='a' href='/about'>About</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 2' />
+              <Header inverted as='h4' content='User Resources' />
               <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
+                <List.Item as='a' href='https://www.rnib.org.uk/sight-loss-advice/technology-and-useful-products/technology-resource-hub-latest-facts-tips-and-guides/screen-reading-software'>
+                  RNIB
+                </List.Item>
+                <List.Item as='a' href='https://www.rsbc.org.uk/young_people/using-technology-when-living-with-sight-loss/'>
+                  RSBC
+                </List.Item>
+                <List.Item as='a' href='https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers'>
+                  AFB
+                </List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Group 3' />
+              <Header inverted as='h4' content='Developer Resources' />
               <List link inverted>
-                <List.Item as='a'>Link One</List.Item>
-                <List.Item as='a'>Link Two</List.Item>
-                <List.Item as='a'>Link Three</List.Item>
-                <List.Item as='a'>Link Four</List.Item>
+                <List.Item as='a' href='https://www.w3.org/WAI/standards-guidelines/'>W3C Guidelines</List.Item>
+                <List.Item as='a' href='https://www.codecademy.com/articles/how-to-setup-screen-reader'>Codecademy</List.Item>
+                <List.Item as='a' href='https://webaim.org/techniques/screenreader/'>WebAIM</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
-              <Header inverted as='h4' content='Footer Header' />
+              <Header inverted as='h4' content='Screen Reader Skills Development Application' />
               <p>
-                Extra space for a call to action inside the footer that could help re-engage users.
+                Developed for final year project.
               </p>
             </Grid.Column>
           </Grid>
   
           <Divider inverted section />
           <Image centered size='mini' src='/logo.jpg' />
-          <List horizontal inverted divided link size='small'>
-            <List.Item as='a' href='#'>
-              Site Map
-            </List.Item>
-            <List.Item as='a' href='#'>
-              Contact Us
-            </List.Item>
-            <List.Item as='a' href='#'>
-              Terms and Conditions
-            </List.Item>
-            <List.Item as='a' href='#'>
-              Privacy Policy
-            </List.Item>
-          </List>
         </Container>
       </Segment>
   );

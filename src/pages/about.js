@@ -60,6 +60,10 @@ const AboutPage = () => {
             RNIB Screen Reader Overview
             <List.Description>Contains general overview of screen readers for beginners and has grants for accessing software.</List.Description>
           </List.Item>
+          <List.Item href='https://www.rsbc.org.uk/young_people/using-technology-when-living-with-sight-loss/' target='_blank'>
+            RSBC Assistive Technology for Children
+            <List.Description>Great article about screen readers and assitive technology for children with sight loss.</List.Description>
+          </List.Item>
           <List.Item href='https://abilitynet.org.uk/factsheets/introduction-screen-readers' target='_blank'>
             AbilityNet Introduction to Screen Readers
             <List.Description>Contains general overview of screen readers for beginners and has help resources.</List.Description>
