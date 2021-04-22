@@ -18,12 +18,12 @@ const AboutPage = () => {
         <p>
           This website is an application which was created to facilitate the improvement of
            screen reader skills. Some of the skills that may be improved are: familiarity with
-           screen reader controls; speed of traversing web page elements; changing 'views' between
-           element layers; and understanding of web page layouts.
+           screen reader controls; speed of traversing web page elements; and understanding of
+           web page layouts.
         </p>
         <Header as='h3'>Can I save my progress?</Header>
         <p>
-          At the end of each level, the "treasure" element will act as a button to take you to the
+          At the end of each level, the "goal" element will act as a button to take you to the
            next level. It will also read a code through the screen reader which you can take note
            of. Use this code on the home page in the "Jump to a specific level" section to jump to
            where you left off!
