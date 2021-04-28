@@ -52,7 +52,7 @@ const Footer = () => {
           </Grid>
   
           <Divider inverted section />
-          <Image centered size='mini' src='/logo.jpg' />
+          <Image aria-label='logo' centered size='mini' src='/logo.jpg' />
         </Container>
       </Segment>
   );
