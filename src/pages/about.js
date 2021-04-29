@@ -14,14 +14,14 @@ const AboutPage = () => {
 
       <Container text style={{ marginTop: '7em' }}>
         <Header as='h1'>About / FAQ</Header>
-        <Header as='h3'>What is this website?</Header>
+        <Header as='h2'>What is this website?</Header>
         <p>
           This website is an application which was created to facilitate the improvement of
            screen reader skills. Some of the skills that may be improved are: familiarity with
            screen reader controls; speed of traversing web page elements; and understanding of
            web page layouts.
         </p>
-        <Header as='h3'>Can I save my progress?</Header>
+        <Header as='h2'>Can I save my progress?</Header>
         <p>
           At the end of each level, the "goal" element will act as a button to take you to the
            next level. It will also read a code through the screen reader which you can take note
@@ -29,13 +29,13 @@ const AboutPage = () => {
            where you left off!
         </p>
         <Header as='h1'>Learn More</Header>
-        <Header as='h3'>Screen reader users</Header>
+        <Header as='h2'>Screen reader users</Header>
         <p>
           There are lots of resources to help you learn more about how to use screen readers, such
            as guides, training videos, and charitable organisations. Listed below is a collection
            of resources that may help.
         </p>
-        <Header as='h4'>Reader-specific guides</Header>
+        <Header as='h3'>Reader-specific guides</Header>
         <List bulleted>
           <List.Item href='https://www.freedomscientific.com/training/jaws/' target='_blank'>
             JAWS Training
@@ -54,7 +54,7 @@ const AboutPage = () => {
             <List.Description>Contains extensive documentation for using VoiceOver.</List.Description>
           </List.Item>
         </List>
-        <Header as='h4'>Charitable Organisations</Header>
+        <Header as='h3'>Charitable Organisations</Header>
         <List bulleted>
           <List.Item href='https://www.rnib.org.uk/sight-loss-advice/technology-and-useful-products/technology-resource-hub-latest-facts-tips-and-guides/screen-reading-software' target='_blank'>
             RNIB Screen Reader Overview
@@ -73,7 +73,7 @@ const AboutPage = () => {
             <List.Description>Contains general overview of screen readers for beginners and list of available software.</List.Description>
           </List.Item>
         </List>
-        <Header as='h3'>Developers</Header>
+        <Header as='h2'>Developers</Header>
         <p>
           It is often useful for developers to use the above resources to improve their
            own screen reader skills as it creates an appreciation for how website design
