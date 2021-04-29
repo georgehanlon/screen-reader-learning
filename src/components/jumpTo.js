@@ -19,6 +19,7 @@ const JumpTo = () => {
         icon: 'search',
         onClick: () => {routeChange(query)}
       }}
+      aria-label='Search bar'
       value={query}
       onChange={onChange}
       placeholder='Level Code'
