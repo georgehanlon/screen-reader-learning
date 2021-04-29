@@ -15,14 +15,14 @@ const Footer = () => {
         <Container textAlign='center'>
           <Grid divided inverted stackable>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Site Links' />
+              <Header inverted as='p' content='Site Links' />
               <List link inverted>
                 <List.Item as='a' href='/'>Home</List.Item>
                 <List.Item as='a' href='/about'>About</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='User Resources' />
+              <Header inverted as='p' content='User Resources' />
               <List link inverted>
                 <List.Item as='a' href='https://www.rnib.org.uk/sight-loss-advice/technology-and-useful-products/technology-resource-hub-latest-facts-tips-and-guides/screen-reading-software'>
                   RNIB
@@ -36,7 +36,7 @@ const Footer = () => {
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Developer Resources' />
+              <Header inverted as='p' content='Developer Resources' />
               <List link inverted>
                 <List.Item as='a' href='https://www.w3.org/WAI/standards-guidelines/'>W3C Guidelines</List.Item>
                 <List.Item as='a' href='https://www.codecademy.com/articles/how-to-setup-screen-reader'>Codecademy</List.Item>
@@ -44,7 +44,7 @@ const Footer = () => {
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
-              <Header inverted as='h4' content='Screen Reader Skills Development Application' />
+              <Header inverted as='p' content='Screen Reader Skills Development Application' />
               <p>
                 Developed for final year project.
               </p>
