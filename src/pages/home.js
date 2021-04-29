@@ -38,7 +38,7 @@ const HomePage = () => {
           first level. Below the start button is an input field to use a code to jump
           to a specific level.
         </p>
-        <Button primary fluid size='large' href='levels/one'>Start</Button>
+        <Button color='black' fluid size='large' href='levels/one'>Start</Button>
         <Header as='h2'>Jump to a specific level</Header>
         <JumpTo />
       </Container>
