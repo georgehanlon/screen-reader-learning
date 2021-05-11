@@ -31,7 +31,8 @@ const HomePage = () => {
           read out loud which you can use to help find the goal. However, some images
           won't contain clues and will just give you a random fact - which doesn't help
           find the goal at all. Learn to follow clues and quickly navigate through
-          elements, but be careful for tricks!
+          elements, but be careful for tricks! All images provided by
+          <a href='https://thenounproject.com/' target='_blank'> the Noun Project</a>.
         </p>
         <p>
           You will find a start button below this paragraph which will take you to the
